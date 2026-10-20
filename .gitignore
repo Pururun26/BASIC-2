@@ -1,0 +1,12 @@
+# Сборочный вывод
+build/
+
+# Python cache (tools/pack.py)
+__pycache__/
+*.pyc
+
+# Автосохранения редакторов
+*.swp
+*~
+.DS_Store
+Thumbs.db

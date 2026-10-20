@@ -1,0 +1,17 @@
+# Текстовые файлы — всегда LF в репозитории
+*.b2  text eol=lf
+*.bs  text eol=lf
+*.h   text eol=lf
+*.c   text eol=lf
+*.md  text eol=lf
+*.py  text eol=lf
+*.json text eol=lf
+Makefile text eol=lf
+
+# Бинарники — не трогать
+*.png  binary
+*.a    binary
+*.dll  binary
+*.exe  binary
+*.ttf  binary
+*.zip  binary

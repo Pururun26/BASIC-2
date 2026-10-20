@@ -1,0 +1,22 @@
+{
+    "name": "basic2",
+    "displayName": "BASIC-2",
+    "description": "Syntax highlighting for BASIC-2 fantasy console cartridges (.b2)",
+    "version": "0.0.1",
+    "publisher": "pururun",
+    "engines": { "vscode": "^1.60.0" },
+    "categories": ["Programming Languages"],
+    "contributes": {
+        "languages": [{
+            "id": "basic2",
+            "aliases": ["BASIC-2", "basic2", "b2"],
+            "extensions": [".b2"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "basic2",
+            "scopeName": "source.basic2",
+            "path": "./syntaxes/b2.tmLanguage.json"
+        }]
+    }
+}
